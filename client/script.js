@@ -79,7 +79,7 @@ loader(messageDiv);
 
 // fetch data from the server
 
-const response = await fetch('http://localhost:5000/', {
+const response = await fetch('https://openai-api-m2ev.onrender.com', {
   method: 'POST',
   headers: {
     'Content-type': 'application/json'
